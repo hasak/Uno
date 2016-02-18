@@ -1,0 +1,113 @@
+@font-face {
+    font-family: skoda;
+    src: url("../fonts/skoda.ttf");
+}
+* {
+    font-family: "skoda";
+}
+ul {
+    list-style: none;
+}
+nav {
+    z-index: 100;
+}
+#header {
+    height: 135px;
+}
+#logo {
+    height: 65;
+    width: 65;
+}
+#simplyClever {
+    height: 6vh;
+    padding-bottom: 5px;
+}
+.affix {
+    top: 0;
+    width: 100%;
+}
+.affix + .container {
+    padding-top: 70px;
+}
+.greenskd {
+    position: absolute;
+    right: 85px;
+    margin-top: -22px;
+}
+.carousel img {
+    min-width: 100%;
+}
+#footer {
+    margin-top: 15px;
+    background-color: #F2F2F2;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 2pt;
+}
+.greyskd {
+    right: 75px;
+    margin-top: -2px;
+}
+#footerLinkContainer {
+    padding-top: 20vh;
+    padding-bottom: 4vh;
+    background-color: #F2F2F2;
+}
+#copyright-year {
+    background-color: #F2F2F2;
+}
+.potpis {
+    font-size: smaller;
+    color: grey;
+}
+/* sm - md - lg */
+
+@media (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .autIzg{
+        padding-top: 10px;
+    }
+    .autIzg:hover {
+        background-color: #F2F2F2;
+    }
+}
+/* xs - sm */
+
+@media (max-width: 992px) {
+    #logo {
+        margin-top: 10px;
+    }
+    .upper-links {
+        margin-top: 15px;
+    }
+}
+/* md - lg */
+
+@media (min-width: 992px) {
+    #logo {
+        width: 130px;
+        height: 130px;
+    }
+    .upper-links {
+        margin-top: 25px;
+    }
+}
+/* xs */
+
+@media (max-width: 768px) {
+    #logo {
+        margin-top: 5px;
+    }
+    .upper-links {
+        margin-top: 25px;
+        margin-left: -10px;
+    }
+    .upper-links.nav-pills {
+        font-size: smaller;
+    }
+    .potpis {
+        float: none !important;
+    }
+}
